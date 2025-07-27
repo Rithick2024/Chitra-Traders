@@ -1,4 +1,5 @@
 import { Shield, Award, Truck } from 'lucide-react';
+import hero from '/Blue Modern Business Card.jpeg';
 
 const Hero = () => {
   return (
@@ -43,7 +44,7 @@ const Hero = () => {
           <div className="relative">
             <div className="bg-slate-700 rounded-2xl p-8 shadow-2xl">
               <img 
-                src="/public/Blue Modern Business Card.PNG" 
+                src={hero}
                 alt="Steel construction materials"
                 className="w-full h-80 object-cover rounded-lg mb-4"
               />

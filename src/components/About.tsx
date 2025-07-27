@@ -1,4 +1,5 @@
 import { Users, MapPin, Clock, Star } from 'lucide-react';
+import about from '/dacc5b42-62af-4c7c-8362-df82f45c7962.jpeg';
 
 const About = () => {
   return (
@@ -64,7 +65,7 @@ const About = () => {
           <div className="space-y-6">
             <div className="bg-slate-100 rounded-xl p-6">
               <img 
-                src="/public/dacc5b42-62af-4c7c-8362-df82f45c7962.JPG" 
+                src={about} 
                 alt="Our warehouse facility"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
