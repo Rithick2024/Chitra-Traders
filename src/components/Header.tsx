@@ -6,24 +6,32 @@ const Header = () => {
 
   return (
     <header className="bg-slate-800 text-white shadow-lg">
-      {/* Top contact bar */}
-      <div className="bg-slate-900 py-2">
-        <div className="container mx-auto px-4 flex justify-between items-center text-sm">
-          <div className="flex items-center space-x-4">
-            <div className="flex items-center">
-              <Phone className="w-4 h-4 mr-2" />
-              <span>+91 9941169939</span>
-            </div>
-            <div className="flex items-center">
-              <Mail className="w-4 h-4 mr-2" />
-              <span>+91 8190004666</span>
-            </div>
-          </div>
-          <div className="text-orange-400 font-medium">
-            S. Chitra Saravanan DME | S/O Chitra Suyambulingam
-          </div>
-        </div>
+{/* Top contact bar */}
+<div className="bg-slate-900 py-2 overflow-hidden">
+  <div className="hidden sm:flex container mx-auto px-4 justify-between items-center text-sm">
+    <div className="flex items-center space-x-4">
+      <div className="flex items-center">
+        <Phone className="w-4 h-4 mr-2" />
+        <span>+91 9941169939</span>
       </div>
+      <div className="flex items-center">
+        <Mail className="w-4 h-4 mr-2" />
+        <span>+91 8190004666</span>
+      </div>
+    </div>
+    <div className="text-orange-400 font-medium">
+      S. Chitra Saravanan DME | S/O Chitra Suyambulingam
+    </div>
+  </div>
+
+  {/* Mobile Marquee */}
+  <div className="sm:hidden text-sm text-white whitespace-nowrap animate-marquee">
+    <div className="inline-block px-4">
+      📞 +91 9941169939 | 📞 +91 8190004666 | 👨‍💼 S. Chitra Saravanan DME | S/O Chitra Suyambulingam
+    </div>
+  </div>
+</div>
+
 
       {/* Main header */}
       <div className="container mx-auto px-4 py-4">
