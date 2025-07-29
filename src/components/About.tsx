@@ -67,13 +67,13 @@ const About = () => {
               <img 
                 src={about} 
                 alt="Our warehouse facility"
-                className="w-full h-64 object-cover rounded-lg mb-4"
+                className="w-full h-68 object-fit rounded-lg mb-4"
               />
               <h3 className="text-xl text-center font-semibold text-slate-800 mb-2">Mr.Suyambulingam Nadar & Mrs.Chitra Suyambulingam</h3>
               <p className='text-center text-slate-800'>Founder & CEO of Chitra Traders</p>
             </div>
 
-            <div className="bg-orange-50 border border-orange-200 rounded-xl p-6">
+            {/* <div className="bg-orange-50 border border-orange-200 rounded-xl p-6">
               <h3 className="text-xl font-semibold text-orange-800 mb-3">Our Promise to You</h3>
               <ul className="space-y-2 text-orange-700">
                 <li>✓ Guaranteed best prices in the market</li>
@@ -82,7 +82,7 @@ const About = () => {
                 <li>✓ Expert advice and technical support</li>
                 <li>✓ Flexible payment options</li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

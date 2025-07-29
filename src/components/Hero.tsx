@@ -46,7 +46,7 @@ const Hero = () => {
               <img 
                 src={hero}
                 alt="Steel construction materials"
-                className="w-full h-80 object-cover rounded-lg mb-4"
+                className="w-full h-44 lg:h-80 lg:object-cover object-fit rounded-lg mb-4"
               />
               <div className="text-center">
                 <h3 className="text-xl font-semibold mb-2">S. Chitra Saravanan DME</h3>
